@@ -16,12 +16,15 @@ body{
 
 }
 
-
 .half-width{
      width: 100%;
 }
 .half-width h1{
      font-size: 60px;
+}
+
+.half-width h2{
+     font-size: 40px;
 }
 
 .half-width img{
@@ -81,3 +84,9 @@ body{
 #goals-bg{
      background-color: #FFF4D6;
 }
+
+/* .coding-section{
+     background-image: url(images/shapes/dream-bg.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+} */
