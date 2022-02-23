@@ -1,6 +1,6 @@
 body{
      font-family: 'Poppins', sans-serif;
-     /* font-family: 'Yeseva One', cursive; */
+     /* font-family: 'Yeseva One', cursive;  */
      margin: 0;
 }
 
@@ -21,7 +21,7 @@ body{
 .flexible-container{
      display: flex;
      justify-content: center;
-     margin-left: 5%;
+     margin-left: 10%;
      margin-bottom: 5%;
 }
 
@@ -54,7 +54,7 @@ body{
      padding-left: 2%;
 }
 
-#top-paragraph{
+.paragraph{
      text-align: justify;
      width: 500px;
 }
@@ -99,11 +99,18 @@ body{
      background-color: #FFF4D6;
 }
 
-/* .coding-section{
-     background-image: url(images/shapes/dream-bg.png);
+.coding-section{
+     background-image: url(images/shapes/shape-1.png);
      background-repeat: no-repeat;
-     background-size: contain;
-} */
+     background-size: 300px;
+}
+
+.project-section{
+     background-image: url(images/shapes/shape-1.png);
+     background-repeat: no-repeat;
+     background-size: 350px;
+     background-position:right;
+}
 
 .form-container-extra {
         display: flex;
