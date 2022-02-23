@@ -90,3 +90,19 @@ body{
      background-repeat: no-repeat;
      background-size: contain;
 } */
+
+.footer-bg{
+background-color: black;
+text-align: center;
+padding: 10px;
+}
+.footer-bg h4{
+     font-size: 35px;
+}
+
+.font-white{
+     color: white;
+}
+#footer-span{
+     color: #FF5959;
+}
