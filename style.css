@@ -4,6 +4,20 @@ body{
      margin: 0;
 }
 
+.menu-extra a{
+     font-weight: bolder;
+     padding: 2px 10px;
+     text-decoration: none;
+     color: #5B5B5B;
+     font-size: 15px;
+     text-shadow: 2px 2px 5px orange;
+ }
+
+ .top-banner{
+     margin: 0 2%;
+     text-align: right;
+ }
+
 .flexible-container{
      display: flex;
      justify-content: center;
@@ -90,6 +104,43 @@ body{
      background-repeat: no-repeat;
      background-size: contain;
 } */
+
+.form-container-extra {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .message-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .message-form input,
+    button {
+        font-size: 1.3em;
+        margin-top: 15px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        border-radius: 5px;
+
+    }
+
+    .message-form button {
+        background-color:#FF5959;
+        color: whitesmoke;
+        font-weight: 700;
+        padding: 5px;
+        border: 0;
+    }
+    .message-form h1{
+         text-align: center;
+        color:#FF5959;
+        font-size: 30px;
+        
+    }
 
 .footer-bg{
 background-color: black;
